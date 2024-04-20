@@ -33,9 +33,9 @@ public class ArrayLists {
 		//set(index, element) : 인덱스에 위치한 값을 교체
 		list.set(2, "Hyundai");
 		System.out.println(list);
-		
+		list.set(3,"Hyundai");
 		//indexOf(params) : 요소의 인덱스값 찾기 - 요소가 있으면 인덱스값 반환 | 요소가 없으면 -1 반환
-		System.out.println(list.indexOf("Amazon"));
+		System.out.println("ㅎㅇ ㅋ" + list.indexOf("Hyundai"));
 		
 		//remove(index | element) : 요소 삭제
 		list.remove(0);
